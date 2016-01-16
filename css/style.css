@@ -1,0 +1,1282 @@
+
+@media all and (min-width: 310px) and (max-width: 467px) and (orientation : portrait){
+
+    #mainImage{
+        position: relative;
+        width:100%;
+
+    }
+
+    .connect{
+        float: left;
+        position: absolute;
+        right: 0%;
+        bottom: 3.8%;
+        z-index: 1000;
+
+        font-size: xx-small;
+        color: #FFFFFF;
+        font-weight: bold;
+        width:50%;
+
+    }
+
+
+
+    body {
+        background-image:url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Grey_background.jpg");
+        font-family: Lato;
+
+
+    }
+
+    .responsive-image{
+        Background-Color: #ffffff;
+        width:100%;
+        height:auto;
+
+
+    }
+
+    .product-images{
+        padding:1%;
+        margin:4%;
+        width:94%;
+        height:auto;
+    }
+
+    @font-face {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
+    }
+
+    h1, h2, h3{
+        color: #002b5a;
+        margin-bottom:42px;
+        text-transform: capitalize;
+    }
+
+    h1{
+        font-size:42px;
+        font-weight: 200
+    }
+    h2{
+
+        font-size:40px;
+        font-weight: 200
+    }
+    h3{
+        font-size:15px;
+        font-weight: normal
+    }
+
+
+    #wrapper {
+        margin:0 auto;
+        width:100%;
+
+    }
+
+    #sub-main{
+        position: relative;
+        width:98%;
+        height: 352px;
+
+    }
+
+    #sub-main-first{
+        position:absolute;
+        width:98%;
+        top:2%;
+        margin:3%;
+    }
+    #sub-main-first-heading{
+        float: left;
+        width: 98%;
+        text-align: left;
+    }
+
+
+    #sub-left {
+        float: left;
+        width: 98%;
+        text-align: justify;
+    }
+    #sub-right {
+        background-color: white;
+        float:left;
+        width:98%;
+        left:2%;
+
+    }
+
+    #stateFinder{
+        float:left;
+        font-size: 20px;
+        margin-bottom:20px;
+        margin-left:5%;
+
+    }
+
+    .loremText{
+        float:left;
+        color: #002b5a;
+        margin-bottom:5px;
+        font-size: 12px;
+        margin-left:5%;
+
+    }
+    #selectText{
+
+        color: #002b5a;
+        font-size: 12px;
+        margin-bottom:20px ;
+    }
+
+    #sub-main-mid{
+        position: absolute;
+        background:whitesmoke;
+        width:98%;
+        top:182%;
+        left:2%;
+
+    }
+
+    .sub-header-mid{
+        width:80%;
+        float:left;
+        margin-left:5%;
+
+    }
+
+
+
+    .mid-sub-div{
+        margin:3%;
+        margin-left:5%;
+        float:left;
+        width:80%;
+    }
+
+    .mid-sub-header{
+
+        display: inline;
+    }
+
+    .paraLightGreyBox{
+        font-Size:12px;
+        margin-bottom:15%;
+
+    }
+
+    .learnMore{
+        Background-Color: #ffffff;
+        Color: #002b5a;
+        Font-Size:14px;
+        Border-Radius: 3px;
+        Box-Shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+        padding:4%;
+
+
+    }
+
+    #sub-main-last{
+        position:absolute;
+        background: whitesmoke;
+        width:98%;
+        top:465%;
+        left:2%;
+        overflow: hidden;
+
+
+    }
+    .sub-header-Product{
+        width:55%;
+        float:left;
+        margin-left:5%;
+
+    }
+
+    .filter{
+
+        width:30%;
+        float:right;
+        margin-top:20%;
+        margin-right: 5%;
+        left:2%
+
+    }
+
+
+    .inside-product-list1,.inside-product-list2,.inside-product-list3,.inside-product-list4{
+
+        background-color:white;
+        float:left;
+
+        padding:1%;
+        width:90%;
+        margin-left:4%;
+
+        left:2%;
+
+    }
+    .inside-product-list2,.inside-product-list3,.inside-product-list4{
+        float:left;
+    }
+
+
+
+    .inside-product-list{
+
+        background-color:white;
+
+        padding:1%;
+        float:left;
+        width:90%;
+        margin-left: 5%;
+
+    }
+
+
+
+
+    .product-filter{
+        position: absolute;
+        width:98%;
+
+        margin:1%;
+    }
+
+    #header-filter{
+        display: inline;
+    }
+
+
+    ul#menu
+    {
+        list-style-type: none;
+        margin-left:0%;
+    }
+
+
+    ul#menu li a{
+        font-size:13px;
+        Color:#666666
+    }
+
+
+
+
+    .sub-main h2#product-main-heading{
+        float:left;
+        width:85%;
+
+    }
+
+
+    .paraHeaderContent{
+        Color:#333;
+        font-Family: Lato;
+        font-Size:18px
+    }
+
+
+    #search-button{
+        float:right;
+    }
+
+
+    .productTitle{
+
+        width:90%;
+        margin: 5%;
+        color: #002b5a;;
+        font-size:17px;
+
+    }
+
+    .staringAt{
+
+        width:90%;
+        margin: 5%;
+        color:#4987ca;
+        font-size:13px;
+    }
+
+    .paraProductTitle{
+
+        width:90%;
+        margin: 5%;
+        font-size:13px;
+        Color: #666666
+    }
+
+
+    #buyOnline{
+        Background-Color: #002b5a;
+        Color: #ffffff;
+        Font-Size:14px;
+        Border-Radius: 3px;
+        padding:1%;
+        margin: 4%;
+        margin-bottom: 2%;
+        width:90%;
+        Box-Shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+
+    }
+
+    #productTitleDisplay{
+        Color: #002b5a;
+        Font-Size:24px
+    }
+    #StaringAtDisplay{
+        Color:#4987ca;
+        Font-Size: 19px
+    }
+
+
+    #product-description{
+
+        position:absolute;
+        background: whitesmoke;
+        width:98%;
+
+        top:799%;
+        left:2%;
+        margin-left: 0%;
+        margin-right: auto;
+
+        margin-top: 100%;
+        border-width: 1px;
+
+        overflow: hidden;
+
+    }
+
+
+    .product-description-productTitle{
+        width:90%;
+        margin:2%;
+        margin-top:6%;
+        color: #002b5a;;
+        font-size:25px;
+        margin-left:4%;
+    }
+
+    #product-description-close{
+
+        float:right;
+
+    }
+    .product-description-staringAt{
+        width:90%;
+        margin:2%;
+        color:#4987ca;
+        font-size:20px;
+        margin-left:4%;
+    }
+
+    #product-description-left{
+        float: left;
+        width: 90%;
+        margin:4%;
+
+        text-align: justify;
+
+
+
+    }
+
+    #product-description-right{
+
+        float:left;
+        width:90%;
+
+        margin:2%;
+        margin-top:1%;
+        margin-right: 5%;
+    }
+
+
+
+
+
+
+
+}
+
+@media all and (min-width: 468px) and (max-width:959px) and (orientation: landscape){
+
+    #mainImage{
+        position: relative;
+        width:100%;
+
+    }
+
+    .connect{
+        float: left;
+        position: absolute;
+        right: 0%;
+        bottom: 6%;
+        z-index: 1000;
+
+        font-size: xx-small;
+        color: #FFFFFF;
+        font-weight: bold;
+        width:40%;
+
+    }
+
+    .sprites{
+        background: url('http://zerosprites.com/detail/us04v/output/sprites.png')no-repeat;
+        position: absolute;
+        right: 0%;
+        bottom: 4%;
+        width:32%;
+        height:10%;
+
+    }
+
+    body {
+        background-image:url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Grey_background.jpg");
+        font-family: Lato;
+
+    }
+
+
+
+
+    .responsive-image{
+        Background-Color: #ffffff;
+        width:100%;
+        height:auto;
+
+
+    }
+
+    .product-images{
+
+        margin: 5%;
+        width:90%;
+        height:auto;
+    }
+
+    @font-face {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
+    }
+
+    h1, h2, h3{
+        color: #002b5a;
+        margin-bottom:42px;
+        text-transform: capitalize;
+    }
+
+    h1{
+        font-size:42px;
+        font-weight: 200
+    }
+    h2{
+
+        font-size:40px;
+        font-weight: 200
+    }
+    h3{
+        font-size:15px;
+        font-weight: normal
+    }
+
+
+    #wrapper {
+        margin:0 auto;
+        width:100%;
+
+    }
+
+    #sub-main{
+        position: relative;
+        width:98%;
+        height: 352px;
+
+    }
+
+    #sub-main-first{
+        position:absolute;
+        width:98%;
+        top:2%;
+        margin:3%;
+    }
+    #sub-main-first-heading{
+        float: left;
+        width: 98%;
+        text-align: left;
+    }
+
+
+    #sub-left {
+        float: left;
+        width: 98%;
+        text-align: justify;
+    }
+    #sub-right {
+        background-color: white;
+        float:left;
+        width:98%;
+        left:2%;
+
+
+    }
+
+    #stateFinder{
+        float:left;
+        font-size: 20px;
+        margin-bottom:10px;
+        margin-left:5%;
+        width:90%;
+
+    }
+
+    .loremText{
+        width:50%;
+        color: #002b5a;
+        margin-bottom:5px;
+        font-size: 12px;
+        margin-left:5%;
+
+    }
+    #selectText{
+
+        color: #002b5a;
+        font-size: 12px;
+        margin-bottom:20px ;
+    }
+
+    #sub-main-mid{
+        position: absolute;
+        background:whitesmoke;
+        width:98%;
+        margin-top: 59%;
+        margin-bottom: 0%;
+        left:2%;
+
+    }
+
+    .sub-header-mid{
+        width:80%;
+        float:left;
+        margin-left:5%;
+
+    }
+
+
+
+    .mid-sub-div{
+        margin:3%;
+        margin-left:5%;
+        float:left;
+        width:80%;
+
+    }
+
+    .mid-sub-header{
+
+        display: inline;
+    }
+
+    .paraLightGreyBox{
+        font-Size:12px;
+        margin-bottom:8%;
+
+    }
+
+    .learnMoreMid{
+        Background-Color: #ffffff;
+        Color: #002b5a;
+        Font-Size:14px;
+        Border-Radius: 3px;
+        Box-Shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+        padding:4%;
+        width:18%;
+
+
+    }
+
+    #sub-main-last{
+        position:absolute;
+        background: whitesmoke;
+        width:98%;
+
+        top: 500%;
+        left:2%;
+
+
+
+    }
+    .sub-header-Product{
+        width:55%;
+        float:left;
+        margin-left:5%;
+
+    }
+
+    .filter{
+
+        width:30%;
+        float:right;
+        margin-top:8%;
+        margin-right: 5%;
+        left:2%
+
+    }
+
+
+    .inside-product-list1,.inside-product-list2,.inside-product-list3,.inside-product-list4{
+
+        background-color:white;
+        float:left;
+
+        padding:1%;
+        width:40%;
+        margin-left:4%;
+
+        left:2%;
+
+    }
+    .inside-product-list2,.inside-product-list3,.inside-product-list4{
+        float:left;
+    }
+
+
+
+
+    .product-filter{
+        position: absolute;
+        width:98%;
+
+        margin:1%;
+    }
+
+    #header-filter{
+        display: inline;
+    }
+
+
+    ul#menu
+    {
+        list-style-type: none;
+        margin-left:0%;
+    }
+
+
+    ul#menu li a{
+        font-size:13px;
+        Color:#666666
+    }
+
+    .learnMoreLast{
+        Background-Color: #ffffff;
+        Color: #002b5a;
+        Font-Size:14px;
+        Border-Radius: 3px;
+        Box-Shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+        padding:3%;
+        width:90%;
+    }
+
+
+    .sub-main h2#product-main-heading{
+        float:left;
+        width:85%;
+
+    }
+
+
+
+
+
+    .paraHeaderContent{
+        Color:#333;
+        font-Family: Lato;
+        font-Size:18px
+    }
+
+
+    #search-button{
+        float:right;
+    }
+
+
+
+
+
+
+    .productTitle{
+
+        width:90%;
+        margin: 5%;
+        color: #002b5a;;
+        font-size:17px;
+
+    }
+
+    .staringAt{
+
+        width:90%;
+        margin: 5%;
+        color:#4987ca;
+        font-size:13px;
+    }
+
+    .paraProductTitle{
+
+        width:90%;
+        margin: 5%;
+        font-size:13px;
+        Color: #666666
+    }
+
+
+
+
+
+    #buyOnline{
+        Background-Color: #002b5a;
+        Color: #ffffff;
+        Font-Size:14px;
+        Border-Radius: 3px;
+        padding:1%;
+        margin: 4%;
+        margin-top:0%;
+
+        width:90%;
+        Box-Shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset
+    }
+
+    #productTitleDisplay{
+        Color: #002b5a;
+        Font-Size:24px
+    }
+    #StaringAtDisplay{
+        Color:#4987ca;
+        Font-Size: 19px
+    }
+
+
+    #product-description{
+
+        position:absolute;
+        background: whitesmoke;
+        width:98%;
+
+        top:560%;
+        left:2%;
+        margin-left: 0%;
+        margin-right: auto;
+
+        margin-top: 100%;
+        border-width: 1px;
+
+        overflow: hidden;
+
+    }
+
+
+    .product-description-productTitle{
+        width:90%;
+        margin:2%;
+        margin-top:6%;
+        color: #002b5a;;
+        font-size:25px;
+        margin-left:4%;
+    }
+
+    #product-description-close{
+
+        float:right;
+
+    }
+    .product-description-staringAt{
+        width:90%;
+        margin:2%;
+        color:#4987ca;
+        font-size:20px;
+        margin-left:4%;
+    }
+
+    #product-description-left{
+        float: left;
+        width: 90%;
+        margin:4%;
+
+        text-align: justify;
+
+
+
+    }
+
+    #product-description-right{
+
+        float:left;
+        width:90%;
+
+        margin:2%;
+        margin-top:1%;
+        margin-right: 5%;
+    }
+
+
+
+
+
+}
+
+@media(min-width:960px)
+{
+
+
+    #mainImage{
+        position: relative;
+        width:100%;
+
+    }
+
+    .connect{
+        float: left;
+        position: absolute;
+        right: 0%;
+        bottom: 3.8%;
+        z-index: 1000;
+
+        padding: 5px;
+        color: #FFFFFF;
+        font-weight: bold;
+        width:35%;
+
+    }
+
+    .sprites{
+        background: url('http://zerosprites.com/detail/us04v/output/sprites.png')no-repeat;
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
+        width:30%;
+        height:10%;
+
+    }
+
+
+
+    body {
+        background-image:url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Grey_background.jpg");
+        font-family: Lato;
+        background-repeat:no-repeat;
+
+
+    }
+
+    .responsive-image{
+        Background-Color: #ffffff;
+        width:100%;
+        height:auto;
+
+
+    }
+
+    .product-images{
+
+        margin: 5%;
+        width:90%;
+        height:auto;
+    }
+
+    @font-face {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
+    }
+
+    h1, h2, h3{
+        color: #002b5a;
+        margin-bottom:42px;
+        text-transform: capitalize;
+    }
+
+    h1{
+        font-size:42px;
+        font-weight: 200
+    }
+    h2{
+
+        font-size:40px;
+        font-weight: 200
+    }
+    h3{
+        font-size:15px;
+        font-weight: normal
+    }
+
+
+    #wrapper {
+        margin:0 auto;
+        width:100%;
+
+    }
+
+    #sub-main{
+        position: relative;
+        width:98%;
+        height: 960px;
+
+    }
+
+    #sub-main-first{
+        position:absolute;
+        width:98%;
+        top:2%;
+        margin:3%;
+    }
+
+
+    #sub-left {
+        float: left;
+        width: 80%;
+    }
+    #sub-right {
+        background-color: white;
+        float:right;
+        width:20%;
+
+    }
+
+    #stateFinder{
+        float:left;
+        font-size: 20px;
+        margin-bottom:20px;
+        margin-left:5%;
+
+    }
+
+    .loremText{
+        float:left;
+        color: #002b5a;
+        margin-bottom:5px;
+        font-size: 12px;
+        margin-left:5%;
+
+    }
+    #selectText{
+
+        color: #002b5a;
+        font-size: 12px;
+        margin-bottom:20px ;
+    }
+
+    #sub-main-mid{
+        position: absolute;
+        background:whitesmoke;
+        width:98%;
+        top:31%;
+        left:2%;
+
+
+    }
+
+    .sub-header-mid{
+        width:80%;
+        float:left;
+        margin-left:3%;
+
+    }
+
+    .mid-sub-div{
+        margin:1%;
+        margin-left:3%;
+        float:left;
+        width:26.04%;
+    }
+
+
+    .learnMoreMid{
+        Background-Color: #ffffff;
+        Color: #002b5a;
+        Font-Size:14px;
+        Border-Radius: 3px;
+        Box-Shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+        padding:4%;
+        width:25%;
+        margin-bottom:3%;
+
+
+    }
+
+
+
+    #sub-main-last{
+        position:absolute;
+        background: whitesmoke;
+        width:98%;
+        top:87%;
+        left:2%;
+        margin-left: 0%;
+        margin-right: auto;
+
+        margin-top: 2%;
+        border-width: 1px;
+
+        overflow: hidden;
+
+    }
+
+
+
+    .sub-header-Product{
+        position:absolute;
+        width:70%;
+        float:left;
+        margin-left:5%;
+
+    }
+
+    .filter-div{
+        position:relative;
+
+        float:right;
+        width:20%;
+        margin-right: 1%;
+
+    }
+
+
+    .filter{
+        position:absolute;
+        margin-top:14%;
+        float:right;
+        width:45%;
+
+    }
+
+
+   .inside-product-list{
+       background-color: white;
+        margin-top:8%;
+       margin-left: 5%;
+       margin-bottom: 5%;
+        float: left;
+        width:19%;
+
+    }
+
+
+    .paraHeaderContent{
+        Color:#333;
+        font-Family: Lato;
+        font-Size:18px
+    }
+
+    .mid-sub-header{
+        margin:0%;
+    }
+
+    .paraLightGreyBox{
+        font-Size:12px;
+        margin-bottom:15%;
+
+    }
+
+
+    #search-button{
+        float:right;
+    }
+
+
+
+
+
+
+    .productTitle{
+
+        width:90%;
+        margin: 5%;
+        color: #002b5a;;
+        font-size:17px;
+
+    }
+
+    .staringAt{
+
+        width:90%;
+        margin: 5%;
+        color:#4987ca;
+        font-size:13px;
+    }
+
+    .paraProductTitle{
+
+        width:90%;
+        margin: 5%;
+        font-size:13px;
+        Color: #666666
+    }
+
+
+    ul#menu
+    {
+        list-style-type: none;
+    }
+
+
+    ul#menu li a{
+        font-size:13px;
+        Color:#666666
+    }
+
+    .learnMoreLast{
+        Background-Color: #ffffff;
+        Color: #002b5a;
+        Font-Size:14px;
+        Border-Radius: 3px;
+        Box-Shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+        padding:3%;
+        width:90%;
+    }
+
+
+
+
+    #buyOnline{
+        Background-Color: #002b5a;
+        Color: #ffffff;
+        Font-Size:14px;
+        Border-Radius: 3px;
+        padding:1%;
+        margin-left: 1%;
+        margin-bottom: 2%;
+        width:10%;
+        Box-Shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset
+    }
+
+    #productTitleDisplay{
+        Color: #002b5a;
+        Font-Size:24px
+    }
+    #StaringAtDisplay{
+        Color:#4987ca;
+        Font-Size: 19px
+    }
+
+
+
+
+
+
+    #product-description{
+
+        position:absolute;
+        background: whitesmoke;
+        width:98%;
+
+        top:87%;
+        left:2%;
+        margin-left: 0%;
+        margin-right: auto;
+
+        margin-top: 40%;
+        border-width: 1px;
+
+        overflow: hidden;
+
+    }
+
+
+   .product-description-productTitle{
+       width:90%;
+       margin:2%;
+       color: #002b5a;;
+       font-size:30px
+   }
+
+#product-description-close{
+
+    float:right;
+
+}
+   .product-description-staringAt{
+       width:90%;
+       margin:2%;
+       color:#4987ca;
+       font-size:30px
+   }
+
+    #product-description-left{
+        float: left;
+        width: 50%;
+        margin:2%;
+        margin-right:0% ;
+        text-align: justify;
+
+
+
+    }
+
+    #product-description-right{
+
+        float:right;
+        width:40%;
+
+        margin:2%;
+        margin-top:1%;
+        margin-right: 5%;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
